@@ -1,0 +1,11 @@
+INSERT INTO painting(painting_id,p_year,p_title,p_image,a_id,glr_id)
+VALUES(DEFAULT,'1966','Rebel Cow','http://localhost/project/Art%20gallery/Add/DB/Painting/a1_1.jpg',
+'1','1'),
+(DEFAULT,'1986','Char Dakhal','http://localhost/project/Art%20gallery/Add/DB/Painting/a2_1.jpg',
+'2','1'),
+(DEFAULT,'1975','Cattle in the Moonlight','http://localhost/project/Art%20gallery/Add/DB/Painting/a3_1.jpg',
+'3','1'),
+(DEFAULT,'2000','Untitled','http://localhost/project/Art%20gallery/Add/DB/Painting/a4_1.jpg',
+'4','1'),
+(DEFAULT,'1994','Untitled','http://localhost/project/Art%20gallery/Add/DB/Painting/a5_1.jpg',
+'5','1'),

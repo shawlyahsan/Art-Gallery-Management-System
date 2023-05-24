@@ -1,0 +1,31 @@
+INSERT INTO gallery(gallery_id,g_name,g_address,g_description)
+VALUES(DEFAULT,'Bengal Art Lounge','Bengal Art Lounge, 60 Gulshan Avenue, Circle 1, Dhaka, Bangladesh, +880 1745 315040',
+       'A clean, open and minimalist gallery, Bengal Art Lounge is overseen by the Bengal Foundation, a local organisation that promotes Bangladeshi culture. Located in the upscale 
+Gulshan neighbourhood, the gallery was opened in late 2011 as a commercial exhibition space designed to make the work of artists both local and international, both renowned and rising, 
+accessible to the Bangladeshi public. Bengal Art Lounge regularly works with international organisations based in Bangladesh to showcase art from outside the country as it did with the 
+Italian Embassy and Bologna-born artist Sabrina Mezzaqui. A recent exhibition, Very Graphic: The Art of Storytelling in Graphic Detail, celebrated graphic arts and featured Bangladeshi 
+political cartoonist Shishir Bhattacharjee as well as British graphic novelist Karrie Fransman.')
+
+INSERT INTO gallery(gallery_id,g_name,g_address,g_description)
+VALUES(DEFAULT,'Dhaka Art Centre','Dhaka Art Centre, House 60, Road 7A, Dhanmondi, Dhaka, Bangladesh, +880 1191 776511',
+       'Founded in 2010, Dhaka Art Centre is a non-profit organisation situated in the bustling Dhanmondi district that was established to encourage the production of contemporary visual art in the country. The centre features six different sizeable gallery spaces for the exhibition of paintings, sculpture, video and other visual art forms, and is also home to an auditorium where it regularly screens both short and feature length films and videos. In the past, Dhaka Art Centre has hosted such exhibitions as Hidden Canvas: Impression of Urban Life, a series of paintings and photographs of the urban landscapes of Dhaka and Philadelphia by Bangladeshi artist Mashiul Chowdhury who now calls the US home, and Raihan’s 71, hard-hitting images of the Bangladesh Liberation War by photographer Abdul Hamid Raihan.')
+
+
+INSERT INTO gallery(gallery_id,g_name,g_address,g_description)
+VALUES(DEFAULT,'Gallery Jolrong','Gallery Jolrong, House 134, Road 3, Block A, Niketon, Gulshan, Dhaka, Bangladesh, +880 1730 372924',
+       'Gallery Jolrong started out as an online portal through which art lovers could access information about Bangladeshi arts back in 2007. Since then, it has expanded its operations into a physical gallery space with the ethos of promoting art exclusively native to Bangladesh to audiences across the globe. Its indigenous art exhibitions have featured promising, upcoming artist Nazir Hossain with his show Pater Gaan, Banglar Bagh, which paid homage to pata chitra, a traditional style of Bangladesh folk art drawn on scrolls and the country’s national animal, the Bengal tiger; another highlight was Native Rhythm, a show coinciding with the Bengali New Year and celebrating the rhythm of life in Bangladesh, which featured renowned native artist Abdus Shakoor Shah and folk artist Raghunath Chakroborty.')
+
+
+INSERT INTO gallery(gallery_id,g_name,g_address,g_description)
+VALUES(DEFAULT,'Athena Gallery of Fine Arts','Athena Gallery of Fine Arts, AJ Heights, CHA-72/1/D, Progoti Shorani Road, Uttar Badda, Dhaka, Bangladesh, +880 1680 760887', 'The Athena Gallery of Fine Arts is a non-profit gallery and the brainchild of CEO Nilu Murshed, a devoted art enthusiast and collector who established Athena with the intention of bringing Bangladesh’s arts and culture scene to an international audience. A fairly new addition to the Dhaka contemporary arts community, the Athena Gallery of Fine Arts opened its doors in 2012 and exhibits artists at all stages in their career – from prominent Bangladeshi painters to young artists just starting out. Alongside a number of regular photography and painting exhibitions, Athena Gallery also has a permanent collection of art which includes works by the late Quamrul Hassan, a respected Bangladeshi artist who mixed traditional folk arts with modern cubism.')
+
+INSERT INTO gallery(gallery_id,g_name,g_address,g_description)
+VALUES(DEFAULT,'Gallery 21','Gallery 21, 751 Satmasjid Road, Dhanmondi, Dhaka, Bangladesh, +880 28 114716', 
+       'Revived art space Gallery 21 first opened back in 1997 and was in operation until 2003, when owner and artist Shameem Subrana was forced to close the gallery doors. Thankfully, Gallery 21 is back with a bang and Shameem is hoping to recreate the buzz and enthusiasm the original gallery had. Since reopening in the spring of 2013, Gallery 21 has exhibited a number of works by Bangladeshi contemporary artists. Its debut exhibition featured prominent painter Syed Jahangir, female artist Fareha Zeba and owner Shameem Subrana herself. Other events have included a photographic exhibition commemorating the 88th anniversary of the birthday of Tajuddin Ahmed, the first Prime Minister of independent Bangladesh who died in 1975, curated by his daughter Simeen Hossain Rimi.')
+
+
+INSERT INTO gallery(gallery_id,g_name,g_address,g_description)
+VALUES(DEFAULT,'Bengal Gallery of Fine Arts','House 42, Rd -16, Sheikh Kamal Sarani, Dhaka 1209', 
+       'Another offshoot of the Bengal Foundation, the Bengal Gallery of Fine Arts was established in 2000 to kindle an interest in art in Bangladesh. The gallery also works hard to promote native art and has done so by establishing partnerships with art communities in cities across the world including Tokyo, Toronto and New York. Residing in a beautifully renovated building, the art space is surrounded by a tranquil garden filled with bamboo and fragrant kathal chapa flowers. Recent exhibitions have included Eternal Japan, a series of photographs by Japan-based Bangladeshi journalist Monzurul Huq depicting his perceptions of the Japanese lifestyle, and Shilpacharya and His Outer World of Art, an exhibition celebrating the birth centenary of Shilpacharya Zainul Abedin which featured his work, as well as pieces by his artistically talented family.')
+
+

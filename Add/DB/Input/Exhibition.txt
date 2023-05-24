@@ -1,0 +1,5 @@
+INSERT INTO exhibition(exhibition_id, e_date, e_time, e_title, e_image, e_description)
+VALUE(DEFAULT, '2021-09-07', '10 AM', 'Ek Kodom', 'http://localhost/project/Art%20gallery_/add/DB/Exhibition/p2.jpg', 'Platform, an art, entertainment and media production company, has organised a contemporary art show, titled Ek Kodom, featuring artworks by three young artists, Azizee Fawmi Khan, Rakib Anwar, and Anisuzzaman Faroque. The exhibition is currently underway at AJ Tower, Kawran Bazar. 
+Ek Kodom is an attempt to present the diversity of Dhaka through a celebratory environment, full of artworks from diverse media, including paintings, sculptures, and installations. Portraying the modern aspects of the city, the artists, in a synchronal mutual interest, have worked on thoughtful material experimentations. Each of the artists has a distinguished style, in terms of their working process and media selection. Yet, all their artworks express a cohesive theme.')
+
+SELECT * FROM `exhibition` WHERE e_date = CAST(CURRENT_TIMESTAMP AS DATE) 

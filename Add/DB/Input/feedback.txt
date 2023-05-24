@@ -1,0 +1,2 @@
+INSERT INTO feedback(feedback_id,f_description,c_id)
+VALUES(DEFAULT,'random','1')

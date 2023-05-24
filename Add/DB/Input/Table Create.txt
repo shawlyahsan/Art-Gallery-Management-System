@@ -1,0 +1,65 @@
+CREATE TABLE IF NOT EXISTS login(
+    login_id int not null AUTO_INCREMENT,
+    username varchar(50),
+    pass varchar(50),
+    PRIMARY KEY(login_id)
+    )ENGINE = INNODB
+
+CREATE TABLE IF NOT EXISTS customer(
+    customer_id int not null AUTO_INCREMENT,
+    first_name varchar(50),
+    last_name varchar(50),
+    email varchar(50),
+    username varchar(50),
+    PRIMARY KEY(customer_id)
+    )ENGINE = INNODB
+
+
+CREATE TABLE IF NOT EXISTS gallery(
+    gallery_id int not null AUTO_INCREMENT,
+    g_name varchar(50),
+    g_address varchar(200),
+    g_description varchar(1000),
+    PRIMARY KEY(gallery_id)
+    )ENGINE = INNODB
+
+CREATE TABLE IF NOT EXISTS artist(
+    artist_id int not null AUTO_INCREMENT,
+    a_first_name varchar(20),
+    a_last_name varchar(20),
+    a_image blob,
+    a_description varchar(2000),
+    PRIMARY KEY(artist_id)
+    )ENGINE = INNODB
+
+CREATE TABLE IF NOT EXISTS painting(
+    painting_id int not null AUTO_INCREMENT,
+    p_year varchar(10),
+    p_title varchar(100),
+    p_image varchar(100),
+    a_id int,
+    glr_id int,
+    PRIMARY KEY(painting_id),
+    FOREIGN KEY(a_id) REFERENCES artist(artist_id),
+    FOREIGN KEY(glr_id) REFERENCES gallery(gallery_id)
+    )ENGINE = INNODB
+
+CREATE TABLE IF NOT EXISTS exhibition(
+    exhibition_id int not null AUTO_INCREMENT,
+    e_date date,
+    e_time varchar(100),
+    e_title varchar(100),
+    e_image varchar(100),
+    e_description varchar(1000),
+    PRIMARY KEY(exhibition_id)
+    )ENGINE = INNODB
+
+CREATE TABLE IF NOT EXISTS feedback(
+    feedback_id int not null AUTO_INCREMENT,
+    f_description varchar(2000),
+    c_id int,
+    PRIMARY KEY(feedback_id),
+    FOREIGN KEY(c_id) REFERENCES customer(customer_id)
+    )ENGINE = INNODB
+
+
